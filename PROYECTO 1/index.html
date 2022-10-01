@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../PROYECTO INTEGRADOR/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
         </nav>
       </div>
       <div class="bloque2">
-        <img src="../CLASE 9/img/Logo.png" alt="">
+        <img src="./img/Logo.png" alt="">
         <nav>
               <ul class="bloque2_ul">
                   <img src="./img/huellablanco.png" alt="">
@@ -44,43 +44,76 @@
     <p class="bloque3_p1"><i>¡Comederos en descuento!</i></p>
     <p class="bloque3_p2">COMEDEROS</p>
   </div>
-  <div>
-      <img src="img/logo2.png" alt="">
-      <h2>Productos destacados</h2>
-      <span>Comedores</span>
-      <span>Accesorios</span>
-      <span> Comida</span>
-  </div>
-  <div>
-    <img src="img/churrasquito.png" alt="Churrasquito">
-    <p>Juguete churrasquito</p>
-    <p>$150</p>
-  </div>
-  <div>
-    <img src="img/comedero.png" alt="Comedero">
-    <p>Juguete comedero</p>
-    <p>$250</p>
-  </div>
-  <div>
-    <img src="img/Huesito.png" alt="Huesito">
-    <p>Juguete huesito</p>
-    <p>$650</p>
+  <div class="bloque4">
+    <div class="bloque4_1">
+        <img src="img/logo2.png" alt="">
+        <h2 class="bloque4_titulo">Productos destacados</h2>
+        <span class="bloque4_text">Comedores - Accesorios - Comida</span>
+    </div>
+    <div class="bloque4_2">
+      <div class="bloque4_2_productos">
+        <img src="img/churrasquito.png" alt="Churrasquito">
+        <p class="bloque4_2_text">Juguete churrasquito</p>
+        <p class="bloque4_2_text texto_naranja">$150</p>
+      </div>
+      <div class="bloque4_2_productos">
+        <img src="img/comedero.png" alt="Comedero">
+          <p class="bloque4_2_text">Juguete comedero</p>
+          <p class="bloque4_2_text texto_naranja">$250</p>
+      </div>
+      <div class="bloque4_2_productos">
+        <img src="img/Huesito.png" alt="Huesito">
+        <p class="bloque4_2_text">Juguete huesito</p>
+        <p class="bloque4_2_text texto_naranja">$650</p>
+      </div>
+    </div>
+    <section class="bloque4_3">
+      <h2 class="bloque4_3_titulo">Contáctanos</h2>
+      <form action="">
+          <!-- <fieldset> -->
+              <!-- <legend>Form</legend> -->
+              <div>
+                  <input class="bloque4_3_form" type="text" id="nombre" name="nombre" placeholder="Nombre y apellido" required>
+              </div>
+              <div>
+                  <input class="bloque4_3_form" type="email" id="email" name="email" placeholder="Ingresá tu correo electrónico" required>
+              </div>
+              <div>
+                  <input class="bloque4_3_form" type="tel" id="tel" name="tel" placeholder="Teléfono" required>
+              </div>
+              <div class="bloque4_3_form_botones">
+              <input class="bloque4_3_form_boton boton1" type="reset" value="Resetear">
+              <input class="bloque4_3_form_boton boton2"type="submit" value="Enviar">
+              </div>
+          <!-- </fieldset> -->
+      </form>
+  </section>
   </div>
   <div class="bloque5">
-    <img src="" alt="">
-    <b>Suscríbite para más novedades</b>
+    <div>
+      <img src="./img/enviar-correo.png" alt="">
+      <b class="bloque5_texto">Suscríbite para más novedades</b>
+    </div>
+    <div>
+      <form class="bloque5_form" action="">
+        <div>
+          <input class="bloque5_form_email" type="email" id="email" name="email" placeholder="Ingresá tu correo electrónico" required>
+        </div>
+        <div>
+          <input class="bloque5_form_boton"type="submit" value="Suscribirme">
+        </div>
+      </form>
+    </div>
   </div>
   <div class="bloque6">
-    <br>
-    <img class="moveico" src="../CLASE 9/img/Location.png" alt="Location">
-    <br>
-    <br>
-    <img class="moveico" src="../CLASE 9/img/Phone.png" alt="Phone">
-    <br>
-    <br>
-    <img class="moveico" src="../CLASE 9/img/Correo.png" alt="e-mail">
-    <br>
-    <img class="bloque6_img" src="../CLASE 9/img/logofoother.png" alt="">
+    <div class="bloque6_imgs_1">
+      <img src="./img/Location.png" alt="Location">
+      <img src="./img/Phone.png" alt="Phone">
+      <img src="./img/Correo.png" alt="e-mail">
+    </div>
+    <div class="bloque6_imgs_2">
+      <img src="./img/logofoother.png" alt="">
+    </div>
   </div>
 </body>
 <footer>
